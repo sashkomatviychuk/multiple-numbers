@@ -1,5 +1,12 @@
 const { replaceNumberIfHasMultiple } = require('./services/numbers.service');
 
+/**
+ * Handler for GET / route
+ * 
+ * @param {import('http').IncomingMessage & { pathname: string, query: object }} req 
+ * @param {import('http').ServerResponse} res 
+ * @returns {*}
+ */
 async function handleHome(req, res) {
   const { number } = req.query;
 
@@ -16,6 +23,13 @@ async function handleHome(req, res) {
   });
 }
 
+/**
+ * Handler for not found page
+ * 
+ * @param {import('http').IncomingMessage & { pathname: string, query: object }} req 
+ * @param {import('http').ServerResponse} res 
+ * @returns {*}
+ */
 async function handleNotFound(req, res) {
   return res.json(404, { error: 'Not found' });
 }

@@ -28,7 +28,7 @@ _Note_: if `number` is not valid integer number throw's validation error
 ### Setup locally
 
 1. Clone repository
-2. `cd <repository>`
+2. `cd multiple-numbers`
 3. `npm install`
 
 ---

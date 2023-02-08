@@ -15,6 +15,10 @@ Simple application built in with pure Node.js http server
 
 _Note_: if `number` is not valid integer number throw's validation error
 
+#### Example
+
+`http://localhost:3000/?number=30`
+
 ---
 
 `404 NOT FOUND` else returns 404 error

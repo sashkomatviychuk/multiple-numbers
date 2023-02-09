@@ -47,4 +47,4 @@ _Note_: if `number` is not valid integer number throw's validation error
 
 |  Variable  |               Description                |
 | :--------: | :--------------------------------------: |
-| `APP_PORT` | Port where the application is started on |
+| `APP_PORT` | Port on which the application is running |
